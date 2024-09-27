@@ -56,6 +56,6 @@ class EntityLabeler:
 
     # Function to save CoNLL formatted data to a text file
     def save_conll_to_file(self, conll_output, filename):
-        with open(filename, 'w', encoding='utf-8') as f:
+        with open(f'../data/{filename}', 'w', encoding='utf-8') as f:
             f.write(conll_output)
         print(f"CoNLL format data has been saved to '{filename}'")
