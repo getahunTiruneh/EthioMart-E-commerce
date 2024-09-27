@@ -27,4 +27,31 @@ To get started, clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/getahunTiruneh/Ethio-Mart-Collaboration.git
-cd Ethio-Mart-Collaboration
+cd Ethio-Mart-Collaboration 
+```
+## Usage
+
+### Entity Labeling
+
+The entity labeling feature tags tokens in Amharic messages as belonging to one of the following categories:
+
+- **B-PRICE / I-PRICE**: Price-related entities.
+- **B-LOC / I-LOC**: Location-related entities.
+- **B-PRODUCT / I-PRODUCT**: Product-related entities.
+- **O**: Outside any entity.
+
+Here’s how you can label entities in a sample message:
+
+```python
+from entity_labeler import EntityLabeler
+
+# Initialize the entity labeler
+labeler = EntityLabeler()
+
+# Sample message
+message = "ብር 500 ዋጋ በመገናኛ ምርት"
+
+# Label entities
+labeled_entities = labeler.label_entities(message)
+print(labeled_entities)
+
