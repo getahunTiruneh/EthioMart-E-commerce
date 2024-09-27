@@ -54,4 +54,12 @@ message = "ብር 500 ዋጋ በመገናኛ ምርት"
 # Label entities
 labeled_entities = labeler.label_entities(message)
 print(labeled_entities)
+```
+## Data Source
+
+The data processed in this repository is fetched from the [Qenash.com - ቅናሽ](t.me/qnashcom) e-commerce channel. This platform provides a variety of e-commerce data, and we focus on labeling entities related to prices, locations, and products from these messages.
+
+## Contributing
+
+This project is collaboratively developed by **`Getahun Tiruneh`** and **`Marta assefa`**. If you'd like to contribute, feel free to submit issues or pull requests for any improvements or feature requests.
 
