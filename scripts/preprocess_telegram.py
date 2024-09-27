@@ -114,8 +114,14 @@ class TelegramPreprocessor:
         print("Labeled messages:")
         print(self.data[['text', 'Labeled_Message']].head())
     def save_labeled_data(self):
-        """Save the labeled data to the output file."""
+        """Save the labeled data to the output file in CoNLL format."""
         with open(self.output_file, 'w', encoding='utf-8') as f:
             for index, row in self.data.iterrows():
-                f.write(f"{row['Labeled_Message']}\n\n")
+                # Split the labeled message into tokens and labels
+                tokens = row['Labeled_Message'].split('\n')
+                for token_label in tokens:
+                    if token_label.strip():  # Check for non-empty lines
+                        f.write(f"{token_label}\n")  # Write each token and its label
+                f.write("\n")  # Separate sentences by a blank line
         print(f"Labeled data saved to {self.output_file}")
+
