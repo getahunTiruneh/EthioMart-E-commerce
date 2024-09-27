@@ -53,7 +53,7 @@
 ጉልበትዎን O
 የሚቆጥብ O
 ፈጣን O
-ስቶቭ O
+ስቶቭ I-PRODUCT
 ባለ O
 ሁለት O
 7200 B-PRICE
@@ -102,7 +102,7 @@
 እና O
 ለመሞረድ O
 የሚያስችል O
-ቡርሾች O
+ቡርሾች I-PRODUCT
 ያሉት O
 ️ለመታጠቢያ O
 ሁነኛ O
@@ -150,7 +150,7 @@
 ያደርገዋል O
 ️አምስት O
 ተቀያያሪ O
-ብሩሾች O
+ብሩሾች I-PRODUCT
 ያሉት O
 1200 I-PRICE
 ብር I-PRICE
@@ -232,15 +232,15 @@
 ዘፍመሽ I-LOC
 ግራንድ B-LOC
 ሞል B-LOC
-3 B-LOC
+3 O
 ተኛ B-LOC
 ፎቅ B-LOC
 ቁጥር O
-329 B-LOC
+329 O
 ቁጥር B-LOC
-2 B-LOC
+2 O
 ጀሞ B-LOC
-1 B-LOC
+1 O
 ከለላ B-LOC
 ህንፃ B-LOC
 ግራውንድ B-LOC
