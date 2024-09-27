@@ -1,1 +1,5 @@
-.venv
+pandas
+numpy
+telethon
+seaborn
+matplotlib
