@@ -63,6 +63,7 @@ The data processed in this repository is fetched from the [Qenash.com - ቅና�
 ## Conclusion
 
 This project will contribute to improving the automated extraction of entities from Amharic text in e-commerce messages, thereby enhancing data analysis capabilities in the Ethiopian e-commerce landscape. The structured approach outlined in this document ensures that each task is comprehensively addressed, leading to a robust NER system that is interpretable and reliable. Despite the challenges faced, this project provides valuable insights and methodologies for future research and application in the field of NER for Amharic and similar languages.
+
 Several models were trained, including XLM-Roberta-base, DistilBERT-base-uncased, and BERT-base-multilingual-cased, using the Hugging Face Trainer API. After tokenizing the data and aligning labels, models were fine-tuned and evaluated based on metrics such as precision, recall, F1 score, and accuracy. Among the models, XLM-Roberta-base performed the best with an F1 score of 0.93 and an accuracy of 99.6%, making it the most suitable model for this entity extraction task.
 
 ## Contributing
